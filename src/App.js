@@ -2,19 +2,19 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css';
 import Content from './components/Content';
-import Sidebar from './components/LeftSideBar';
+import LeftSidebar from './components/LeftSideBar'
 import Chat from './components/Chat';
-import Create from './components/create';
+import CreateCharacter from './components/CreateCharacter';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-          <Sidebar />
+          <LeftSidebar />
           <Routes>
             <Route path='/' element = {<Content />} />
             <Route path='/chat' element = {<Chat />} />
-            <Route path='/create-character' element = {<Create />} />
+            <Route path='/create-character' element = {<CreateCharacter />} />
           </Routes>
       </BrowserRouter>
         

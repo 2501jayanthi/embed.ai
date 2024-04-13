@@ -1,4 +1,4 @@
-.create-container{
+.container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ textarea{
     margin-bottom: 0px;
     border-radius: 15px;
 }
-.kk{
+.input-text{
     width: 88%;
     padding: 12px;
 }
@@ -24,7 +24,7 @@ select{
     width: 13%;
     border-radius: 10px;
 }
-.logoooo{
+.logo{
     background-image:linear-gradient(#f68248, #F3D4C6);
     height: 80px;
     width: 80px;
@@ -32,7 +32,7 @@ select{
     position: relative;  
     margin-bottom: 20px;
 }
-.pencile{
+.pencil{
     position: absolute;
     left:55px;
     top:55px;
@@ -40,7 +40,7 @@ select{
     height: 20px;
     padding: 2px;
     border-radius: 5cm;
-    width: 20px;
+    width: 15px;
 }
 .create-container{
     padding: 20px;
@@ -48,20 +48,22 @@ select{
 ::placeholder{
     padding: 5px;
 }
-.ppppp{
+.number-text{
     margin-top: 0px;
     margin-left: 83%;
+    font-size: medium;
+    font-family: 'Times New Roman';
 }
 
 @media screen and (max-width:768px) {
-    .kk{
+    .input-text{
         width: 88%;
         padding :3px;
     }
     ::placeholder{
         font-size: 8px;
     }
-    .ppppp{
+    .number-text{
         margin-top: 0px;
         font-size: 8px;
         margin-left: 75%;
@@ -70,7 +72,7 @@ select{
         font-size: 8px;
         width: 15%;
     }
-    .pencile{
+    .pencil{
         position: absolute;
         left:35px;
         top:35px;
@@ -80,7 +82,7 @@ select{
         border-radius: 5cm;
         width: 10px;
     }
-    .logoooo{
+    .logo{
         background-image:linear-gradient(#f68248, #F3D4C6);
         height: 50px;
         width: 50px;
